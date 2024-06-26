@@ -4,8 +4,12 @@
   "description": "Github action to upload testng results",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeeshan12/testng-result-upload.git"

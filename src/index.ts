@@ -1,8 +1,8 @@
 import * as core from '@actions/core';
 import { readFileSync } from 'fs';
 import { XMLParser } from 'fast-xml-parser';
-import * as github from '@actions/github';
-import { Octokit } from '@octokit/rest';
+import { TestDetails } from '../types/report';
+import { generateTestDetailsTable } from './summary';
 
 
 async function run(): Promise<void> {
@@ -35,26 +35,22 @@ async function run(): Promise<void> {
         core.info(`Conclusion  of run : ${conclusion}`);
 
         const test = suite.test;
-        const testCases = [];
+        const testCases: TestDetails[] = [];
 
         for (const testClass of Array.isArray(test.class) ? test.class : [test.class]) {
             for (const method of Array.isArray(testClass['test-method']) ? testClass['test-method'] : [testClass['test-method']]) {
                 const methodName = method.name;
                 const status = method.status;
-                testCases.push({ name: methodName, status });
+                const duration = method["duration-ms"];
+                testCases.push({ name: methodName, status: status, duration });
             }
         }
 
-        testCases.forEach(testCase => {
-            core.info(`Test Name: ${testCase.name}, Status: ${testCase.status}`);
-        });
-        const pullRequest = github.context.payload.pull_request;
-        const head_sha = (pullRequest && pullRequest.head.sha) || github.context.sha;
-        core.info(`Posting status for suite '${suiteName}' with conclusion '${conclusion}' to (sha: ${head_sha})`);
-
+        generateTestDetailsTable(testCases);
 
     } catch (error) {
-        core.setFailed(error?.message);
+        console.error('Failed to read or process the file:', error);
+        core.setFailed(`Error processing the file: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
 }
 

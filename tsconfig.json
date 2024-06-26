@@ -9,5 +9,5 @@
       "skipLibCheck": true,             // Skips type checking of all declaration files (*.d.ts)
       "forceConsistentCasingInFileNames": true // Disallows inconsistently-cased references to the same file
     },
-    "include": ["src"]                  // Specifies the root folder for TypeScript files
+    "include": ["src", "types"]                  // Specifies the root folder for TypeScript files
   }
