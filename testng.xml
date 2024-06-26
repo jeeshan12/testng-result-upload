@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T20:46:48 IST" name="Framework execution suite" finished-at="2024-06-14T20:46:50 IST" duration-ms="1849">
+    <groups>
+    </groups>
+    <test started-at="2024-06-14T20:46:48 IST" name="Framework Tests" finished-at="2024-06-14T20:46:50 IST" duration-ms="1849">
+      <class name="org.kira.automation.framework.RedisManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClearState()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testClearState" finished-at="2024-06-14T20:46:50 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClearStateWithException()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testClearStateWithException" finished-at="2024-06-14T20:46:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearStateWithException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRetrieveState()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testRetrieveState" finished-at="2024-06-14T20:46:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRetrieveStateWithException()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testRetrieveStateWithException" finished-at="2024-06-14T20:46:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveStateWithException -->
+        <test-method signature="testStoreState()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testStoreState" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoreStateWhenKeyExists()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testStoreStateWhenKeyExists" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreStateWhenKeyExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="setUp" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStoreStateWithException()[pri:0, instance:org.kira.automation.framework.RedisManagerTest@b70da4c]" started-at="2024-06-14T20:46:50 IST" name="testStoreStateWithException" finished-at="2024-06-14T20:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreStateWithException -->
+      </class> <!-- org.kira.automation.framework.RedisManagerTest -->
+      <class name="org.kira.automation.framework.IosCapabilitiesUtilTest">
+        <test-method signature="testConfigureCapabilities()[pri:0, instance:org.kira.automation.framework.IosCapabilitiesUtilTest@bf1ec20]" started-at="2024-06-14T20:46:49 IST" name="testConfigureCapabilities" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfigureCapabilities -->
+      </class> <!-- org.kira.automation.framework.IosCapabilitiesUtilTest -->
+      <class name="org.kira.automation.framework.FileUtilsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testReadFileAsStringFileNotFound()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="testReadFileAsStringFileNotFound" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <exception class="org.kira.automation.exceptions.FrameworkGenericException">
+            <message>
+              <![CDATA[File with name nonexistentfile.txt not found. Exception : nonexistentfile.txt]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.kira.automation.exceptions.FrameworkGenericException: File with name nonexistentfile.txt not found. Exception : nonexistentfile.txt
+at org.kira.automation.utils.FileUtils.readFileAsString(FileUtils.java:19)
+at org.kira.automation.framework.FileUtilsTest.testReadFileAsStringFileNotFound(FileUtilsTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.kira.automation.exceptions.FrameworkGenericException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFileAsStringFileNotFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testReadFileAsStringSuccess()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="testReadFileAsStringSuccess" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFileAsStringSuccess -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.FileUtilsTest@c5ee75e]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.kira.automation.framework.FileUtilsTest -->
+      <class name="org.kira.automation.framework.AppiumServerUtilTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBuildAppiumServerUrlStringWithOtherPartialSystemProperties()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="testBuildAppiumServerUrlStringWithOtherPartialSystemProperties" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildAppiumServerUrlStringWithOtherPartialSystemProperties -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBuildAppiumServerUrlStringWithPartialSystemProperties()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="testBuildAppiumServerUrlStringWithPartialSystemProperties" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildAppiumServerUrlStringWithPartialSystemProperties -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testBuildAppiumServerUrlStringWithSystemProperties()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="testBuildAppiumServerUrlStringWithSystemProperties" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildAppiumServerUrlStringWithSystemProperties -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBuildAppiumServerUrlStringWithoutSystemProperties()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="testBuildAppiumServerUrlStringWithoutSystemProperties" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuildAppiumServerUrlStringWithoutSystemProperties -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.kira.automation.framework.AppiumServerUtilTest@6c25e6c4]" started-at="2024-06-14T20:46:49 IST" name="tearDown" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.kira.automation.framework.AppiumServerUtilTest -->
+      <class name="org.kira.automation.framework.AndroidCapabilitiesUtilTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AndroidCapabilitiesUtilTest@58fb7731]" started-at="2024-06-14T20:46:48 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddDeviceLockCapabilities()[pri:0, instance:org.kira.automation.framework.AndroidCapabilitiesUtilTest@58fb7731]" started-at="2024-06-14T20:46:49 IST" name="testAddDeviceLockCapabilities" finished-at="2024-06-14T20:46:49 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddDeviceLockCapabilities -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.AndroidCapabilitiesUtilTest@58fb7731]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConfigureCapabilities()[pri:0, instance:org.kira.automation.framework.AndroidCapabilitiesUtilTest@58fb7731]" started-at="2024-06-14T20:46:49 IST" name="testConfigureCapabilities" finished-at="2024-06-14T20:46:49 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfigureCapabilities -->
+      </class> <!-- org.kira.automation.framework.AndroidCapabilitiesUtilTest -->
+      <class name="org.kira.automation.framework.ConverterUtilTest">
+        <test-method signature="testIsBooleanWithFalseString()[pri:0, instance:org.kira.automation.framework.ConverterUtilTest@85e6769]" started-at="2024-06-14T20:46:49 IST" name="testIsBooleanWithFalseString" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBooleanWithFalseString -->
+        <test-method signature="testIsBooleanWithOtherString()[pri:0, instance:org.kira.automation.framework.ConverterUtilTest@85e6769]" started-at="2024-06-14T20:46:49 IST" name="testIsBooleanWithOtherString" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBooleanWithOtherString -->
+        <test-method signature="testIsBooleanWithTrueString()[pri:0, instance:org.kira.automation.framework.ConverterUtilTest@85e6769]" started-at="2024-06-14T20:46:49 IST" name="testIsBooleanWithTrueString" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBooleanWithTrueString -->
+        <test-method signature="testIsNumericWithNonNumericString()[pri:0, instance:org.kira.automation.framework.ConverterUtilTest@85e6769]" started-at="2024-06-14T20:46:49 IST" name="testIsNumericWithNonNumericString" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNumericWithNonNumericString -->
+        <test-method signature="testIsNumericWithNumericString()[pri:0, instance:org.kira.automation.framework.ConverterUtilTest@85e6769]" started-at="2024-06-14T20:46:49 IST" name="testIsNumericWithNumericString" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNumericWithNumericString -->
+      </class> <!-- org.kira.automation.framework.ConverterUtilTest -->
+      <class name="org.kira.automation.framework.ServiceConfigurationFactoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateConfigurationForGraphQLBackend()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="testCreateConfigurationForGraphQLBackend" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateConfigurationForGraphQLBackend -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateConfigurationForInvalidBackend()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="testCreateConfigurationForInvalidBackend" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateConfigurationForInvalidBackend -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="setUp" finished-at="2024-06-14T20:46:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateConfigurationForRestBackend()[pri:0, instance:org.kira.automation.framework.ServiceConfigurationFactoryTest@48a12036]" started-at="2024-06-14T20:46:49 IST" name="testCreateConfigurationForRestBackend" finished-at="2024-06-14T20:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateConfigurationForRestBackend -->
+      </class> <!-- org.kira.automation.framework.ServiceConfigurationFactoryTest -->
+      <class name="org.kira.automation.framework.JsonParserUtilTest">
+        <test-method signature="testReadJsonFile()[pri:0, instance:org.kira.automation.framework.JsonParserUtilTest@70efb718]" started-at="2024-06-14T20:46:49 IST" name="testReadJsonFile" finished-at="2024-06-14T20:46:49 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadJsonFile -->
+      </class> <!-- org.kira.automation.framework.JsonParserUtilTest -->
+    </test> <!-- Framework Tests -->
+  </suite> <!-- Framework execution suite -->
+</testng-results>

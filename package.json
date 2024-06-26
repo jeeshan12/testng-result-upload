@@ -4,8 +4,12 @@
   "description": "Github action to upload testng results",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeeshan12/testng-result-upload.git"
@@ -22,9 +26,14 @@
   "homepage": "https://github.com/jeeshan12/testng-result-upload#readme",
   "dependencies": {
     "@actions/core": "~1.10.1",
+    "@actions/github": "^6.0.0",
+    "@octokit/plugin-retry": "^7.1.1",
+    "@octokit/rest": "^20.1.1",
+    "@octokit/types": "^13.5.0",
     "fast-xml-parser": "~4.4.0"
   },
   "devDependencies": {
+    "@types/node": "^20.14.9",
     "typescript": "~5.4.5"
   }
 }

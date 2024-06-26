@@ -1,0 +1,22 @@
+name: CI
+
+on: [push]
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Run custom action
+        uses: ./
+        with:
+          xml-file: "testng.xml"
