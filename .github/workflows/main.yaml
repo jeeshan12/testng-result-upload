@@ -13,10 +13,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install dependencies
+      - name: Build
         run: npm run build
 
       - name: Run custom action
-        uses: ./.github/actions/my-custom-action
+        uses: ./.github/actions/post-result
         with:
           xml-file: "./.github/testng.xml"
