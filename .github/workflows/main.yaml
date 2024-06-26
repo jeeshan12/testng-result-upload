@@ -17,6 +17,6 @@ jobs:
         run: npm run build
 
       - name: Run custom action
-        uses: ./.github/actions/action
+        uses: ./.github/actions/post-status
         with:
-          xml-file: "./.github/testng.xml"
+          xml-file: "testng.xml"

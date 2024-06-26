@@ -7,9 +7,7 @@ import { generateTestDetailsTable } from './summary';
 
 async function run(): Promise<void> {
 
-
     try {
-        const githubToken = core.getInput('github_token');
         const xmlFilePath: string = core.getInput('xml-file');
         const xmlData: string = readFileSync(xmlFilePath, 'utf8');
 
